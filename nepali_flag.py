@@ -1,7 +1,7 @@
 import turtle
 import sys
 
-sys.setExecutionLimit(120000)
+sys.setrecursionlimit(5000) 
 
 ins_border = turtle.Turtle()      #Inside Border
 ins_border.speed(0)
